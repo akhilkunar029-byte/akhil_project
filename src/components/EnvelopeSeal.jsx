@@ -99,7 +99,7 @@ export default function EnvelopeSeal({ theme, onOpen }) {
             >
               {/* Envelope flap top - splits open */}
               <motion.div
-                className={`absolute -top-px left-0 right-0 h-32 origin-top overflow-hidden rounded-t-2xl z-10`}
+                className={`absolute -top-px left-0 right-0 h-20 origin-top overflow-hidden rounded-t-2xl z-10`}
                 initial={{ scaleY: 1 }}
                 animate={phase === 'opening' ? { scaleY: 0, opacity: 0 } : {}}
                 transition={{ duration: 0.7, delay: 0.2, ease: [0.76, 0, 0.24, 1] }}
@@ -121,13 +121,13 @@ export default function EnvelopeSeal({ theme, onOpen }) {
 
               {/* Card body */}
               <div
-                className={`relative flex flex-col items-center justify-center py-14 px-8 gap-4 rounded-2xl
+                className={`relative flex flex-col items-center justify-center pt-24 pb-10 px-6 gap-3 rounded-2xl
                   ${isDark ? 'bg-gradient-to-b from-slate-900 to-indigo-950' : 'bg-gradient-to-b from-pink-50 to-rose-50'}
                 `}
               >
                 {/* Inner envelope lines */}
-                <div className={`absolute inset-4 rounded-xl border ${isDark ? 'border-yellow-900/30' : 'border-rose-100'} pointer-events-none`} />
-                <div className={`absolute inset-8 rounded-lg border ${isDark ? 'border-yellow-900/20' : 'border-pink-100/70'} pointer-events-none`} />
+                <div className={`absolute inset-4 rounded-xl border ${isDark ? 'border-yellow-900/30' : 'border-rose-200/60'} pointer-events-none`} />
+                <div className={`absolute inset-8 rounded-lg border ${isDark ? 'border-yellow-900/20' : 'border-pink-200/50'} pointer-events-none`} />
 
                 {/* Pre-open content */}
                 <AnimatePresence>
@@ -137,15 +137,15 @@ export default function EnvelopeSeal({ theme, onOpen }) {
                       animate={{ opacity: 1, y: 0 }}
                       exit={{ opacity: 0, y: -20 }}
                       transition={{ duration: 0.5 }}
-                      className="flex flex-col items-center gap-3"
+                      className="flex flex-col items-center gap-3 relative z-20 text-center"
                     >
-                      <p className={`font-cormorant text-xs sm:text-sm tracking-[0.4em] uppercase ${isDark ? 'text-yellow-400/80' : 'text-rose-500/80'}`}>
+                      <p className={`font-cormorant text-xs sm:text-sm tracking-[0.3em] uppercase font-bold ${isDark ? 'text-yellow-300' : 'text-rose-700'}`}>
                         You are cordially invited to celebrate
                       </p>
-                      <h1 className={`font-cinzel text-2xl sm:text-3xl font-bold text-center tracking-wide ${isDark ? 'gold-text-gradient' : 'text-rose-900'}`}>
-                        {coupleNames.groom} <span className="font-script text-3xl sm:text-4xl text-rose-500 font-normal">&</span> {coupleNames.bride}
+                      <h1 className={`font-cinzel text-2xl sm:text-3xl font-extrabold text-center tracking-wide ${isDark ? 'shimmer-text-dark gold-text-glow' : 'text-rose-950'}`}>
+                        {coupleNames.groom} <span className="font-script text-3xl sm:text-4xl text-rose-600 font-bold">&amp;</span> {coupleNames.bride}
                       </h1>
-                      <p className={`font-script text-2xl sm:text-3xl text-center ${isDark ? 'text-yellow-300' : 'text-rose-600'}`}>
+                      <p className={`font-script text-2xl sm:text-3xl text-center font-bold ${isDark ? 'text-yellow-300' : 'text-rose-700'}`}>
                         Wedding Invitation
                       </p>
                     </motion.div>
