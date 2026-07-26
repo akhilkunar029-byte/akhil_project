@@ -209,9 +209,9 @@ export default function HeroSection({ theme }) {
             }
           `}
         >
-          <span>{coupleNames.groomParents}</span>
-          <span className="hidden sm:block opacity-60 text-amber-400">◆</span>
           <span>{coupleNames.brideParents}</span>
+          <span className="hidden sm:block opacity-60 text-amber-400">◆</span>
+          <span>{coupleNames.groomParents}</span>
         </motion.div>
 
         {/* Hashtag */}
