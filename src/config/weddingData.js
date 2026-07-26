@@ -1,0 +1,107 @@
+// ============================================================
+// weddingData.js — All Wedding Content
+// Edit this file to personalize your invitation!
+// ============================================================
+
+export const coupleNames = {
+  groom: 'Pavan',
+  bride: 'Thanuja',
+  groomFull: 'Pavan Surya Prakash',
+  brideFull: 'Thanuja',
+  groomParents: 'S/O Smt. Pitchika Bala Durga Maruthi & Sri Pitchika Raja Kumar Garu',
+  brideParents: 'D/O Smt. Beeraka Satyavathi & Sri Beeraka Satyanarayana Garu',
+  displayName: 'Pavan & Thanuja',
+  hashtag: '#PavanThanuja2026',
+};
+
+// Muhurtam (Auspicious Wedding Time) — August 19, 2026 at 4:10 AM
+export const weddingDate = new Date('2026-08-19T04:10:00');
+
+export const events = [
+  {
+    id: 1,
+    name: 'Evening Reception',
+    icon: '✨',
+    date: 'August 18, 2026',
+    time: '',
+    venue: 'B S Function Hall, Gandhi Nagar, Guntur',
+    description: 'An elegant evening of celebration, fine dining, and dancing under the stars. Join us to toast the soon-to-be newlyweds!',
+    color: 'from-amber-400 to-rose-400',
+  },
+  {
+    id: 2,
+    name: 'Muhurtam — Wedding Ceremony',
+    icon: '🪔',
+    date: 'August 19, 2026',
+    time: '4:10 AM (Auspicious Muhurtam)',
+    venue: 'B S Function Hall, Gandhi Nagar, Guntur',
+    description: 'The sacred union of Pavan & Thanuja at the divine auspicious hour. Witness their vows as two souls become one forever.',
+    color: 'from-rose-400 to-pink-500',
+  },
+];
+
+
+export const venue = {
+  name: 'B S Function Hall',
+  address: '1-2-48/3, I.P.D Colony, Gandhi Nagar, Guntur, Andhra Pradesh 522003',
+  landmark: 'Gandhi Nagar, Guntur',
+  googleMapsUrl: 'https://maps.google.com/?q=B+S+Function+Hall+1-2-48/3+IPD+Colony+Gandhi+Nagar+Guntur+Andhra+Pradesh+522003',
+  embedUrl: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3807.5!2d80.4365!3d16.3067!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a4a75b5e9b5e5e5%3A0x0!2sGandhi+Nagar%2C+Guntur%2C+Andhra+Pradesh!5e0!3m2!1sen!2sin!4v1620000000000!5m2!1sen!2sin',
+  phone: '',
+};
+
+export const media = {
+  // Local photos — your personal images
+  couplePhoto: '/couple.jpg',
+  scratchRevealPhoto: '/hands.jpg',
+  heroBackground: null, // null = use gradient
+  // Background music — Kalyanam track
+  backgroundMusic: '/Kalyanam.mp3',
+};
+
+export const albumPhotos = [
+  {
+    id: 1,
+    url: '/album1.jpg',
+    title: 'Sweet Memories',
+    subtitle: 'Pavan & Thanuja',
+  },
+  {
+    id: 2,
+    url: '/album2.jpg',
+    title: 'Moments of Joy',
+    subtitle: 'Together Forever',
+  },
+  {
+    id: 3,
+    url: '/couple.jpg',
+    title: 'Two Hearts, One Soul',
+    subtitle: 'The Happy Couple',
+  },
+  {
+    id: 4,
+    url: '/hands.jpg',
+    title: 'Bound by Love',
+    subtitle: 'Sacred Vows',
+  },
+];
+
+export const rsvpConfig = {
+  deadline: 'August 12, 2026',
+  maxGuestsPerRsvp: 10,
+  contactEmail: 'pavan.thanuja.wedding@gmail.com',
+};
+
+export const giftRegistry = {
+  show: true,
+  message: 'Your presence is the greatest gift of all. We are truly blessed to have you celebrate this moment with us.',
+  subMessage: 'If you wish to bless us further, a small envelope of wishes will warm our hearts forever.',
+  registryUrl: null,
+  registryLabel: 'View Gift Registry',
+  upiId: '',
+};
+
+export const socialLinks = {
+  instagram: 'https://instagram.com',
+  hashtag: '#PavanThanuja2026',
+};
