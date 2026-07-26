@@ -75,12 +75,12 @@ export default function PhotoAlbum({ theme }) {
                 }
               `}
             >
-              {/* Photo Frame */}
-              <div className="relative aspect-[4/5] overflow-hidden">
+              {/* Photo Frame with 9:16 mobile aspect ratio support */}
+              <div className="relative aspect-[9/16] sm:aspect-[4/5] overflow-hidden">
                 <img
                   src={photo.url}
                   alt={photo.title}
-                  className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+                  className="w-full h-full object-cover object-top transition-transform duration-700 group-hover:scale-110"
                 />
                 
                 {/* Gradient overlay */}
