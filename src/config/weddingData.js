@@ -45,8 +45,7 @@ export const venue = {
   name: 'B S Function Hall',
   address: '1-2-48/3, I.P.D Colony, Gandhi Nagar, Guntur, Andhra Pradesh 522003',
   landmark: 'Gandhi Nagar, Guntur',
-  googleMapsUrl: 'https://maps.google.com/?q=B+S+Function+Hall+1-2-48/3+IPD+Colony+Gandhi+Nagar+Guntur+Andhra+Pradesh+522003',
-  embedUrl: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3807.5!2d80.4365!3d16.3067!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a4a75b5e9b5e5e5%3A0x0!2sGandhi+Nagar%2C+Guntur%2C+Andhra+Pradesh!5e0!3m2!1sen!2sin!4v1620000000000!5m2!1sen!2sin',
+  googleMapsUrl: 'https://www.google.com/maps/search/?api=1&query=B+S+Function+Hall+1-2-48%2F3+I.P.D+Colony+Gandhi+Nagar+Guntur+Andhra+Pradesh+522003',
   phone: '',
 };
 
