@@ -52,7 +52,7 @@ export const venue = {
 
 export const media = {
   // Local photos — your personal images
-  couplePhoto: '/couple.jpg',
+  couplePhoto: '/album3.jpg',
   scratchRevealPhoto: '/hands.jpg',
   heroBackground: null, // null = use gradient
   // Background music — Kalyanam track
@@ -62,24 +62,36 @@ export const media = {
 export const albumPhotos = [
   {
     id: 1,
-    url: '/album1.jpg',
-    title: 'Sweet Memories',
-    subtitle: 'Pavan & Thanuja',
+    url: '/album3.jpg',
+    title: 'Sacred Garlands',
+    subtitle: 'Engagement Vows',
   },
   {
     id: 2,
-    url: '/album2.jpg',
-    title: 'Moments of Joy',
-    subtitle: 'Together Forever',
+    url: '/album4.jpg',
+    title: 'Sweet Smiles',
+    subtitle: 'Pink Teddy Paradise',
   },
   {
     id: 3,
+    url: '/album1.jpg',
+    title: 'Sweet Memories',
+    subtitle: 'Dinner & Celebrations',
+  },
+  {
+    id: 4,
+    url: '/album2.jpg',
+    title: 'Moments of Joy',
+    subtitle: 'Fun Times Together',
+  },
+  {
+    id: 5,
     url: '/couple.jpg',
     title: 'Two Hearts, One Soul',
     subtitle: 'The Happy Couple',
   },
   {
-    id: 4,
+    id: 6,
     url: '/hands.jpg',
     title: 'Bound by Love',
     subtitle: 'Sacred Vows',
