@@ -3,6 +3,7 @@ import { AnimatePresence, motion } from 'framer-motion';
 import { Sun, Moon } from 'lucide-react';
 
 import { getTheme, themes } from './config/weddingConfig';
+import { coupleNames } from './config/weddingData';
 import EnvelopeSeal from './components/EnvelopeSeal';
 import MusicPlayer from './components/MusicPlayer';
 import HeroSection from './components/HeroSection';
@@ -45,7 +46,7 @@ function NavBar({ theme, isDark, onThemeToggle, opened }) {
     >
       {/* Logo */}
       <a href="#hero" className={`font-playfair text-lg font-bold ${isDark ? 'text-yellow-200' : 'text-rose-800'}`}>
-        A♡S
+        {coupleNames.bride[0]}♡{coupleNames.groom[0]}
       </a>
 
       {/* Desktop nav */}

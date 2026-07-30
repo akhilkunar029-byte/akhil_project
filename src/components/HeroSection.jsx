@@ -147,7 +147,7 @@ export default function HeroSection({ theme }) {
           >
             <img
               src={media.couplePhoto}
-              alt={`${coupleNames.groom} and ${coupleNames.bride}`}
+              alt={`${coupleNames.bride} and ${coupleNames.groom}`}
               className="w-full h-full object-cover object-top transition-transform duration-500 hover:scale-110"
             />
           </motion.div>
@@ -168,7 +168,7 @@ export default function HeroSection({ theme }) {
           <h1 className={`font-cinzel text-4xl sm:text-6xl font-extrabold tracking-wider uppercase text-center
             ${isDark ? 'shimmer-text-dark gold-text-glow' : 'shimmer-text drop-shadow'}
           `}>
-            {coupleNames.groom}
+            {coupleNames.bride}
           </h1>
           <div className="flex items-center gap-4 my-2">
             <div className={`h-px w-20 ${isDark ? 'bg-gradient-to-r from-transparent via-yellow-500 to-transparent' : 'bg-gradient-to-r from-transparent via-rose-600 to-transparent'}`} />
@@ -184,7 +184,7 @@ export default function HeroSection({ theme }) {
           <h1 className={`font-cinzel text-4xl sm:text-6xl font-extrabold tracking-wider uppercase text-center
             ${isDark ? 'shimmer-text-dark gold-text-glow' : 'shimmer-text drop-shadow'}
           `}>
-            {coupleNames.bride}
+            {coupleNames.groom}
           </h1>
         </motion.div>
 
@@ -209,9 +209,9 @@ export default function HeroSection({ theme }) {
             }
           `}
         >
-          <span>{coupleNames.brideParents}</span>
+          <span className="whitespace-pre-line">{coupleNames.brideParents}</span>
           <span className="hidden sm:block opacity-60 text-amber-400">◆</span>
-          <span>{coupleNames.groomParents}</span>
+          <span className="whitespace-pre-line">{coupleNames.groomParents}</span>
         </motion.div>
 
         {/* Hashtag */}

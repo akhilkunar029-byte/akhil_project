@@ -44,7 +44,7 @@ export default function Timeline({ theme }) {
             Wedding Program
           </h2>
           <p className={`font-montserrat text-sm mt-3 ${isDark ? 'text-slate-300' : 'text-rose-600'}`}>
-            Reception & Muhurtam — two sacred moments to celebrate
+            Reception, Dinner & Muhurtam — sacred moments to celebrate
           </p>
         </motion.div>
 

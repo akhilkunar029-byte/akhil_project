@@ -8,10 +8,10 @@ export const coupleNames = {
   bride: 'Thanuja',
   groomFull: 'Pavan Surya Prakash',
   brideFull: 'Thanuja',
-  groomParents: 'S/O Smt. Pitchika Bala Durga Maruthi & Sri Pitchika Raja Kumar Garu',
-  brideParents: 'D/O Smt. Beeraka Satyavathi & Sri Beeraka Satyanarayana Garu',
-  displayName: 'Pavan & Thanuja',
-  hashtag: '#PavanThanuja2026',
+  groomParents: 'S/O Sri Pitchika Raja Kumar Garu\n& Smt. Pitchika Bala Durga Maruthi',
+  brideParents: 'D/O Sri Beeraka Satyanarayana Garu\n& Smt. Beeraka Satyavathi',
+  displayName: 'Thanuja & Pavan',
+  hashtag: '#ThanujaPavan2026',
 };
 
 // Muhurtam (Auspicious Wedding Time) — August 19, 2026 at 4:10 AM
@@ -30,12 +30,22 @@ export const events = [
   },
   {
     id: 2,
+    name: 'Wedding Dinner',
+    icon: '🍽️',
+    date: 'August 18, 2026',
+    time: '7:30 PM',
+    venue: 'B S Function Hall, Gandhi Nagar, Guntur',
+    description: 'Join us for a delicious wedding feast to celebrate the joyous occasion.',
+    color: 'from-orange-400 to-red-400',
+  },
+  {
+    id: 3,
     name: 'Muhurtam — Wedding Ceremony',
     icon: '🪔',
     date: 'August 19, 2026',
     time: '4:10 AM (Auspicious Muhurtam)',
     venue: 'B S Function Hall, Gandhi Nagar, Guntur',
-    description: 'The sacred union of Pavan & Thanuja at the divine auspicious hour. Witness their vows as two souls become one forever.',
+    description: 'The sacred union of Thanuja & Pavan at the divine auspicious hour. Witness their vows as two souls become one forever.',
     color: 'from-rose-400 to-pink-500',
   },
 ];
@@ -114,5 +124,5 @@ export const giftRegistry = {
 
 export const socialLinks = {
   instagram: 'https://instagram.com',
-  hashtag: '#PavanThanuja2026',
+  hashtag: '#ThanujaPavan2026',
 };

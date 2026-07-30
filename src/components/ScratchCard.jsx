@@ -202,7 +202,7 @@ export default function ScratchCard({ theme }) {
             </p>
             <div className="h-px w-20 my-1 bg-white/40" />
             <p className="font-montserrat text-xs text-white/90 font-medium">
-              {coupleNames.groom} weds {coupleNames.bride}
+              {coupleNames.bride} weds {coupleNames.groom}
             </p>
           </div>
         </div>

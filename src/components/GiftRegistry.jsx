@@ -70,7 +70,7 @@ export default function GiftRegistry({ theme }) {
           <div className={`h-px w-24 mx-auto mb-6 ${isDark ? 'bg-yellow-600/40' : 'bg-rose-200'}`} />
 
           <p className={`font-montserrat text-sm font-bold ${isDark ? 'text-yellow-300' : 'text-rose-700'}`}>
-            — With love, {coupleNames.groom} &amp; {coupleNames.bride}
+            — With love, {coupleNames.bride} &amp; {coupleNames.groom}
           </p>
 
           {/* Registry link */}
@@ -109,7 +109,7 @@ export default function GiftRegistry({ theme }) {
           `}>
             <img
               src={media.couplePhoto}
-              alt={`${coupleNames.groom} and ${coupleNames.bride}`}
+              alt={`${coupleNames.bride} and ${coupleNames.groom}`}
               className="w-full h-full object-cover"
             />
             <div className={`absolute inset-0 bg-gradient-to-t from-black/30 to-transparent`} />

@@ -143,7 +143,7 @@ export default function EnvelopeSeal({ theme, onOpen }) {
                         You are cordially invited to celebrate
                       </p>
                       <h1 className={`font-cinzel text-2xl sm:text-3xl font-extrabold text-center tracking-wide ${isDark ? 'shimmer-text-dark gold-text-glow' : 'text-rose-950'}`}>
-                        {coupleNames.groom} <span className="font-script text-3xl sm:text-4xl text-rose-600 font-bold">&amp;</span> {coupleNames.bride}
+                        {coupleNames.bride} <span className="font-script text-3xl sm:text-4xl text-rose-600 font-bold">&amp;</span> {coupleNames.groom}
                       </h1>
                       <p className={`font-script text-2xl sm:text-3xl text-center font-bold ${isDark ? 'text-yellow-300' : 'text-rose-700'}`}>
                         Wedding Invitation

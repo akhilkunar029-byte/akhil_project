@@ -140,7 +140,7 @@ export default function RSVPForm({ theme }) {
                   </div>
                 )}
                 <p className={`font-montserrat text-xs ${isDark ? 'text-slate-500' : 'text-rose-300'}`}>
-                  — {coupleNames.groom} & {coupleNames.bride}
+                  — {coupleNames.bride} & {coupleNames.groom}
                 </p>
               </motion.div>
             ) : (
