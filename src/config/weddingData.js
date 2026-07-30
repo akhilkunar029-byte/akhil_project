@@ -65,7 +65,7 @@ export const media = {
   scratchRevealPhoto: '/hands.jpg',
   heroBackground: null, // null = use gradient
   // Background music — Kalyanam track
-  backgroundMusic: '/Kalyanam.mp3',
+  backgroundMusic: '/bg-music.mpeg',
 };
 
 export const albumPhotos = [
